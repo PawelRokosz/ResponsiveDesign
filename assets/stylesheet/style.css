@@ -69,6 +69,133 @@ Clearfix
 
 /*
 =======================================================
+Body
+=======================================================
+*/
+
+body{
+  font-family: sans-serif;
+  min-width: 300px;
+  background: lightgrey;
+}
+
+/*
+=======================================================
 Nav
 =======================================================
 */
+
+nav{
+  background: white;
+  width: 100%;
+  min-width: 300px;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  box-shadow: 0 0 32px rgba(0,0,0,.15);
+  font-family: 'Ropa Sans', sans-serif;
+}
+
+.logo {
+  width: 172px;
+  height: 65px;
+  background: purple;
+  float: left;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  padding-top: 15px;
+  cursor: pointer;
+}
+
+.logo:hover{
+  background: url("../images/logo-back.jpg") 0 0 no-repeat;
+}
+
+.logo a{
+  color: white;
+}
+
+.right{
+  width: 162px;
+  height: 80px;
+  text-decoration: none;
+  float: right;
+}
+
+.middle{
+  float: left;
+  display: none;
+  padding-left: 15px;
+  padding-top: 25px;
+}
+
+.middle a{
+  font-size: 30px;
+  padding-right: 10px;
+  color: lightgray;
+}
+
+.middle a:hover{
+  color: black;
+}
+
+div a{
+  text-decoration: none;
+}
+
+.search{
+  height: 65px;
+  float: left;
+  padding: 15px 0 0 16px;
+  border-left: 1px solid lightgrey;
+}
+
+.menu{
+  height: 65px;
+  float: right;
+  padding: 15px 18px 0 18px;
+  border-left: 1px solid lightgrey;
+}
+
+.right img{
+  width: 45px;
+}
+
+/*
+=======================================================
+Main-section
+=======================================================
+*/
+
+section{
+  width: 100%;
+  height: 1500px;
+  background: lightgrey;
+  padding-top: 80px;
+}
+
+/*
+=======================================================
+Media Queries
+=======================================================
+*/
+
+@media screen and (min-width: 1152px){
+  .menu{
+    display: none;
+  }
+
+  .middle{
+    display: block;
+  }
+
+  .search{
+    padding-right: 16px;
+  }
+
+  .right{
+    width: auto;
+  }
+
+}
