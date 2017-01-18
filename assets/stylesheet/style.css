@@ -76,7 +76,7 @@ Body
 body{
   font-family: sans-serif;
   min-width: 300px;
-  background: lightgrey;
+  background: #e3e3e3;
 }
 
 /*
@@ -97,7 +97,7 @@ nav{
 }
 
 .logo {
-  width: 172px;
+  width: 163px;
   height: 65px;
   background: purple;
   float: left;
@@ -171,9 +171,134 @@ Main-section
 section{
   width: 100%;
   height: 1500px;
-  background: lightgrey;
+  background: #e3e3e3;
   padding-top: 80px;
 }
+
+.hero{
+  color: white;
+  font-family: 'Ropa Sans', sans-serif;
+}
+
+.hero .one h1{
+  font-size: 50px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.hero .one h2{
+  font-size: 25px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.hero .one h3{
+  font-size: 25px;
+  color: grey;
+}
+
+.hero .box-font h1{
+  font-size: 50px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.hero .box-font h2{
+  font-size: 25px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.hero .box-font h3{
+  font-size: 25px;
+  color: grey;
+}
+
+.hero h1, .hero h2, .hero h3{
+  padding: 0 10px;
+}
+
+.hero a{
+  text-decoration: none;
+  color: grey;
+}
+
+.hero a:hover{
+  color: white;
+}
+
+.left-box .one{
+  max-width: 100%;
+  height:170px;
+  margin: 10px;
+  background-image: url('../images/one.jpg');
+  background-size: cover;
+}
+
+.right-box .two{
+  max-width: 100%;
+  height:170px;
+  margin: 10px;
+  background-image: url('../images/two.jpg');
+  background-size: cover;
+}
+
+.right-box .three{
+  max-width: 100%;
+  height:170px;
+  margin: 10px;
+  background-image: url('../images/three.jpg');
+  background-size: cover;
+}
+
+/*
+=======================================================
+Section - latest news
+=======================================================
+*/
+.latestNews{
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.section-title h1{
+  color: #F42;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.section-items .item{
+  white-space: nowrap;
+  margin-bottom: 15px;
+}
+
+.item .item-box{
+  display: inline-block;
+  max-width: 100%;
+  vertical-align: top;
+}
+
+.item .img-box{
+  width: 72px;
+  height: 72px;
+  background: url("../images/item-box-img.jpg");
+  background-size: cover;
+  cursor: pointer;
+}
+
+.item .deal-box{
+  background: url("../images/deal-box.jpg");
+  background-size: cover;
+}
+
+.item-box h1{
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
 
 /*
 =======================================================
@@ -196,6 +321,89 @@ Media Queries
 
   .right{
     width: auto;
+  }
+
+  .left-box{
+    width: 65%;
+    float: left;
+  }
+
+  .left-box .one{
+    height: 350px;
+    margin-right: 5px;
+  }
+
+  .right-box{
+    width: 35%;
+    float: right;
+  }
+
+  .hero .one h1{
+    font-size: 70px;
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+
+  .hero .one h2{
+    font-size: 30px;
+    padding-top: 110px;
+    padding-bottom: 10px;
+  }
+
+  .hero .one h3{
+    font-size: 30px;
+    color: grey;
+  }
+
+  .hero .box-font h1{
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+
+  .hero .box-font h2{
+    font-size: 20px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+  }
+
+  .hero .box-font h3{
+    font-size: 20px;
+    color: grey;
+  }
+
+  .section-items{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap
+  }
+
+  .section-items .item{
+    display: inline-block;
+  }
+
+  .item .item-box{
+    display: block;
+  }
+
+  .item .img-box{
+    width: 450px;
+    height: 200px;
+    margin-bottom: 10px;
+  }
+
+  .item .deal-box{
+    width: 400px;
+    height: 300px;
+  }
+
+
+}
+
+@media screen and (max-width: 829px){
+
+  .hero .one h1, .hero .box-font h1{
+    font-size: 20px;
   }
 
 }
