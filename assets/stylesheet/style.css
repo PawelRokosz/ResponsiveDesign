@@ -170,7 +170,7 @@ Main-section
 
 section{
   width: 100%;
-  height: 1500px;
+  min-height: 1500px;
   background: #e3e3e3;
   padding-top: 80px;
 }
@@ -299,6 +299,91 @@ Section - latest news
 }
 
 
+/*
+=======================================================
+Footer
+=======================================================
+*/
+
+.foot-links{
+  background: black;
+  width: 100%;
+  color: white;
+}
+
+.foot-links .links-box{
+  display: inline-block;
+  vertical-align: top;
+  padding: 60px 0;
+  padding-left: 50px;
+  padding-right: 60px;
+  font-size: 25px;
+}
+
+.links-box h1{
+  padding-bottom: 30px;
+  color: darkgrey;
+}
+
+.links-box li{
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.links-box li span{
+  font-size: 15px;
+  color: gray;
+}
+
+.foot-social{
+  width: 100%;
+  background-color: black;
+}
+
+.social-box{
+  width: 43%;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.social-box a{
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background: #2d2d2d;
+  border: 3px solid #2d2d2d;
+  border-radius: 100px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.social-box a:hover{
+  background: black;
+}
+
+.social-box a img{
+  width: 40px;
+  padding-top: 17%;
+  padding-left: 17%;
+}
+
+.foot-more{
+  width: 100%;
+  padding-top: 40px;
+  background: black;
+  font-size: 20px;
+  text-align: center;
+}
+
+.foot-more .more-box a{
+  color: darkgrey;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+.foot-more .more-box a:hover{
+  color: white;
+}
 
 /*
 =======================================================
