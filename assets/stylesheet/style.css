@@ -306,7 +306,7 @@ Footer
 */
 
 .foot-links{
-  background: black;
+  background: #131313;
   width: 100%;
   color: white;
 }
@@ -316,7 +316,7 @@ Footer
   vertical-align: top;
   padding: 60px 0;
   padding-left: 50px;
-  padding-right: 60px;
+  padding-right: 120px;
   font-size: 25px;
 }
 
@@ -337,7 +337,7 @@ Footer
 
 .foot-social{
   width: 100%;
-  background-color: black;
+  background-color: #131313;
 }
 
 .social-box{
@@ -358,7 +358,7 @@ Footer
 }
 
 .social-box a:hover{
-  background: black;
+  background: #131313;
 }
 
 .social-box a img{
@@ -369,8 +369,8 @@ Footer
 
 .foot-more{
   width: 100%;
-  padding-top: 40px;
-  background: black;
+  padding: 40px 0;
+  background: #131313;
   font-size: 20px;
   text-align: center;
 }
@@ -382,6 +382,24 @@ Footer
 }
 
 .foot-more .more-box a:hover{
+  color: white;
+}
+
+.foot-footer{
+  background: black;
+  width: 100%;
+  text-align: center;
+}
+
+.foot-box{
+  padding: 60px 0;
+}
+
+.foot-box a{
+  color: darkgrey;
+}
+
+.foot-box a:hover{
   color: white;
 }
 
